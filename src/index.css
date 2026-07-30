@@ -1,2 +1,25 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* ... animatsiyalar o'zgarishsiz ... */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #0f172a;
+}
+
+.dark {
+  --bg-color: #07090e;
+  --text-color: #ffffff;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
