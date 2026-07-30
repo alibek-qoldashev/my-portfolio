@@ -23,7 +23,7 @@ function Hero() {
         data-aos-delay="100"
         className="text-4xl md:text-6xl font-bold mb-4 text-gray-900 dark:text-white"
       >
-        Alibek
+        Qo'ldoshev Alibek
       </h1>
 
       <h2
